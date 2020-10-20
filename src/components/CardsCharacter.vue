@@ -45,9 +45,16 @@
 import { mapState } from "vuex";
 export default {
   name: "CardsCharacter",
-  methods: {
-    ...mapState(['personajes']),
+  data() {
+
+    return {
+      
+      }
   },
+ computed: {
+   
+   ...mapState(['personajes']),
+ },
 };
 </script>
 
