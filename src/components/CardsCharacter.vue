@@ -2,8 +2,8 @@
   <div>
     <v-container>
       <v-row>
-        <v-col v-for="(personaje, index) in personajes" :key="index">
-          <v-card class="mx-auto" max-width="344">
+        <v-col v-for="(personaje, index) in personajes" :key="index" cols="12" md="4">
+          <v-card class="cards-character" max-width="300">
             <v-img :src="personaje.imagen" height="200px"></v-img>
 
             <v-card-title>

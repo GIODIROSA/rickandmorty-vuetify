@@ -4,7 +4,7 @@
       <v-toolbar dense>
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-        <v-toolbar-title>Title</v-toolbar-title>
+        <v-toolbar-title>Rick and Morty</v-toolbar-title>
 
         <v-spacer></v-spacer>
 
